@@ -246,6 +246,8 @@ def main(url):
 
   
   print(white)
+  with open("urls.json", "w") as outfile:
+    json.dump(url_download, outfile, indent=4)
   os.chdir(do)
 
 
