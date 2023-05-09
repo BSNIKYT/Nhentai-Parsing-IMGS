@@ -1,3 +1,6 @@
+### https://github.com/BSNIKYT/Nhentai-Parsing-IMGS
+
+
 import os
 import requests
 try:
